@@ -1,0 +1,6 @@
+text = input("entrez une phrase : ")
+f = text.split()
+for x in f :
+    if(x[0] == "a"):
+        print(x)
+
